@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Car Rental</title>
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <header>
+         <nav class="navbar navbar" style="background-color: #13080e;">
+          <a class="navbar-brand" href="#">
+          <img src="./Images/LOGO.jpg" width="260" height="260" alt="">
+           <br>
+           <nav class="navbar navbar-expand-lg navbar-light bg-p">
+            <a class="navbar-brand" href="#" style="color: rgb(173, 32, 32);font-size: 50px; font-family: georgia;"><strong>Vintage Car Hires</strong></a>
+            
+          </nav>
+          <nav class="navbar navbar" style="background-color: #13080e;">
+            <a class="navbar-brand" href="#">
+          <a class="nav-link cars"  href="#cars">Cars</a>
+          <a class="nav-link enquiry" href="#enquiry">Enquiry</a>
+          <a class="nav-link contact" href="#contact">Contact</a>
+          <a class="nav-link locateus" href="#locateus">Locate Us</a>
+            </nav> 
+    </nav>
+    </header>
+    <main>
+        <section id="cars">
+            <br>
+           
+            <h2>Cars</h1>
+                <div class="card-deck">
+                    <div class="card">
+                      <img class="card-img-top" src="./Images/ford T.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Ford Model T (1908)</h5>
+                        <p class="card-text">The first production Model T was built on August 12, 1908[18] and left the factory on September 27, 1908, at the Ford Piquette Avenue Plant in Detroit, Michigan. On May 26, 1927, Henry Ford watched the 15 millionth Model T Ford roll off the assembly line at his factory in Highland Park, Michigan.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="./Images/rolls.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Rolls-Royce Phantom (1925)</h5>
+                        <p class="card-text">The Rolls-Royce Phantom was Rolls-Royce's replacement for the original Silver Ghost. Introduced as the New Phantom in 1925, the Phantom had a larger engine than the Silver Ghost and used pushrod-operated overhead valves instead of the Silver Ghost's side valves.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="./Images/jag.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Jaguar E-Type (1961) </h5>
+                        <p class="card-text">The Jaguar E-Type, or the Jaguar XK-E for the North American market, is a British sports car that was manufactured by Jaguar Cars Ltd between 1961 and 1975.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+
+        </section>
+        <section id="enquiry">
+        <br>
+        <form class="w-50">
+            <h3 class="text-primary">Enquiry</h3>
+            <br>
+            <div class="form-group text-light">
+              <label for="inputfullname">Full Name</label>
+              <input type="text" class="form-control" id="inputfullname">
+            </div>
+            <div class="form-group text-light">
+                <label for="inputemail">Email</label>
+                <input type="text" class="form-control" id="inputemail">
+              </div>
+            <div class="form-group text-light">
+              <label for="inputcomments">Comments</label>
+              <textarea name="inputcomments" id="inputcomments" class="form-control" rows="2">
+              </textarea>
+            </div>
+            <div class="form-group text-light">
+                <label for="inputSelectacar">Select A Car</label>
+                <select id="inputSelectacar" class="form-control">
+                    <option value=""></option>
+                <option value="fordmodelt(1908)">Ford Model T (1908)</option>
+                <option value="rolls-roycephantom(1925)">Rolls-Royce Phantom (1925)</option>
+                <option value="jaguarE-type(1961)">Jaguar E-Type (1961)</option>
+                </select>
+              </div>
+              <div class="modal-footer">
+               
+                <button type="submit" class="btn btn-success" value="submit">Submit</button>
+              </div>
+            
+        </form>
+        </section>
+        <br>
+        <form class="w-50">
+        <section id="contact">
+            <h4 class="text-primary">Contact</h4>
+            <address>
+                <p class="text-light"><strong>Address:</strong> Whiteside St Melbourne VIC </p>
+
+            </address>
+               <p class="text-light"><strong>Phone:</strong> 03 9999 9999</p> <br>
+
+
+
+        </section>
+      </form>
+      <form >
+        <section id="locateus">
+            <h4 class="text-primary">Locate Us</h4>
+            <img src="./Images/Locate1.JPG" alt="">
+
+    </main>
+    <br>
+    <footer class="text-center">
+        <p><strong>&copy 2021 All Right Reserved WF</strong></p>
+    </footer>
+</body>
+</html>
